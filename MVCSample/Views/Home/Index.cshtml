@@ -50,9 +50,7 @@
         <th>
             @Html.DisplayNameFor(model => model.rowguid)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ModifiedDate)
-        </th>
+        
         <th></th>
     </tr>
 
@@ -97,9 +95,7 @@
         <td>
             @Html.DisplayFor(modelItem => item.rowguid)
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ModifiedDate)
-        </td>
+        
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.CustomerID }) |
             @Html.ActionLink("Details", "Details", new { id=item.CustomerID }) |
